@@ -1,0 +1,49 @@
+User@DESKTOP-FDAHQH0 MINGW64 ~/Desktop (main)
+$ pwd
+/c/Users/User/Desktop
+
+User@DESKTOP-FDAHQH0 MINGW64 ~/Desktop (main)
+$ https://github.com/fatima-28/ex2.git
+bash: https://github.com/fatima-28/ex2.git: No such file or directory
+
+User@DESKTOP-FDAHQH0 MINGW64 ~/Desktop (main)
+$ git clone https://github.com/fatima-28/ex2.git
+Cloning into 'ex2'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+User@DESKTOP-FDAHQH0 MINGW64 ~/Desktop (main)
+$ cd ex2
+
+User@DESKTOP-FDAHQH0 MINGW64 ~/Desktop/ex2 (main)
+$ git add g.txt
+
+User@DESKTOP-FDAHQH0 MINGW64 ~/Desktop/ex2 (main)
+$ git commit -m "slm ftme ncsn"
+[main c22f840] slm ftme ncsn
+ 1 file changed, 1 insertion(+)
+ create mode 100644 g.txt
+
+User@DESKTOP-FDAHQH0 MINGW64 ~/Desktop/ex2 (main)
+$ git branch -M main
+
+User@DESKTOP-FDAHQH0 MINGW64 ~/Desktop/ex2 (main)
+$ git remote add origin https://github.com/fatima-28/ex2.git
+error: remote origin already exists.
+
+User@DESKTOP-FDAHQH0 MINGW64 ~/Desktop/ex2 (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 281 bytes | 281.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/fatima-28/ex2.git
+   134c651..c22f840  main -> main
+branch 'main' set up to track 'origin/main'.
+
+User@DESKTOP-FDAHQH0 MINGW64 ~/Desktop/ex2 (main)
+$
